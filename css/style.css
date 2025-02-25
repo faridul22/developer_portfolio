@@ -155,3 +155,30 @@ main {
   margin: 0 auto;
   margin-top: 50px;
 }
+/* footer style */
+.footer_container {
+  display: flex;
+  padding: 130px 230px;
+  gap: 100px;
+}
+.footer_column {
+  width: 50%;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.social_link {
+  display: flex;
+  gap: 20px;
+}
+.social_link p {
+  border: 1px dotted gray;
+  padding: 5px 10px 0px 10px;
+  border-radius: 10px;
+}
